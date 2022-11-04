@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+    <hibernate-mapping>
+    <class name="com.klef.jfsd.Product" table="product_table">
+    <id name="id" column="product_id"></id>
+    <property name="category" column="product_category"></property>
+    <property name="name" column="product_name"></property>
+    <property name="description" column="product_description"></property>
+    <property name="price" column="product_price"></property>
+    <property name="manufactureddate" column="product_manufactureddate"></property>
+    <property name="expiry" column="product_expiry"></property>
+    
+    
+    </class>
+    </hibernate-mapping>
